@@ -7,9 +7,18 @@
   - ( ) Buddhabrot
   - ( ) Siperski triangle
   - ( ) 3d game of life
+  - ( ) Webcam effects
+  - ( ) Hilbert curve
 
 * Tools
-  - ( ) p5.js
-  - ( ) Processing
-  - ( ) nannou (can't run on my machine)
-  - ( ) HTML5 canvas
+  - HTML5 canvas
+  - p5.js
+  - Uiua
+  - Desmos
+  - Processing
+  - webgl shaders
+  - X11 (Xlib)
+  - glslViewer
+  - Pixi.js
+  - Godot
+  - nannou (doesn't run on my machine)

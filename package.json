@@ -1,0 +1,13 @@
+{
+  "name": "creative-coding-playground",
+  "version": "0.0.0",
+  "description": "Playground for my creative coding experiments",
+  "author": "Akshay Nair <phenax5@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3"
+  }
+}

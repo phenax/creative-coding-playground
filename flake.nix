@@ -11,10 +11,9 @@
 
       shell = pkgs: with pkgs; mkShell {
         buildInputs = [
-          nodejs-18_x
-          nodePackages.typescript
-          nodePackages.typescript-language-server
           just
+          nodejs-18_x
+          nodePackages.pnpm
         ];
       };
     in
