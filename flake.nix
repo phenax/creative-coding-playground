@@ -16,6 +16,8 @@
             nodejs-18_x
             nodePackages.pnpm
             uiua
+            glslviewer
+            nodePackages.live-server
             # cbqn
           ];
         };
