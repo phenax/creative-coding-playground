@@ -1,14 +1,17 @@
+* Week
+  - ( ) Mandelbrot | Uiua
+
 * Ideas
-  - ( ) Newton's fractals
-  - ( ) Flow fields on image
-  - ( ) Iterate over messytones
-  - ( ) Spinning poin
-  - ( ) Mandelbrot
-  - ( ) Buddhabrot
-  - ( ) Siperski triangle
-  - ( ) 3d game of life
-  - ( ) Webcam effects
-  - ( ) Hilbert curve
+  - Newton's fractals
+  - Flow fields on image
+  - Iterate over messytones
+  - Spinning poin
+  - Mandelbrot
+  - Buddhabrot
+  - Siperski triangle
+  - 3d game of life
+  - Webcam effects
+  - Hilbert curve
 
 * Tools
   - HTML5 canvas

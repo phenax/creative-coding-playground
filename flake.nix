@@ -9,13 +9,16 @@
       forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
       nixpkgsFor = forAllSystems (system: import nixpkgs { inherit system; });
 
-      shell = pkgs: with pkgs; mkShell {
-        buildInputs = [
-          just
-          nodejs-18_x
-          nodePackages.pnpm
-        ];
-      };
+      shell = pkgs: with pkgs;
+        mkShell {
+          buildInputs = [
+            just
+            nodejs-18_x
+            nodePackages.pnpm
+            uiua
+            # cbqn
+          ];
+        };
     in
     {
       devShells = forAllSystems (system:

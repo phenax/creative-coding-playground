@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gen bqn.js</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      pre#debug {
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        overflow: auto;
+        background-color: #0f0c19;
+        color: #fff;
+        padding: 1rem;
+      }
+      canvas {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./bqn.js"></script>
+    <script>
+      const debugNode = () => {
+        const $debug = document.getElementById('debug') ?? document.createElement('pre')
+        $debug.parentNode || document.body.appendChild($debug)
+        $debug.id = 'debug'
+        return $debug
+      }
+      const debug = (value) => {
+        console.log(fmt(value))
+        const $dbg = debugNode()
+        $dbg.innerText = `${$dbg.innerText || '> start'}\n> ${fmt(value)}`
+      }
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
