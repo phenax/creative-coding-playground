@@ -1,5 +1,8 @@
 * Week
-  - ( ) Mandelbrot | BQN
+  - (x) Mandelbrot | BQN + Glsl
+  - (x) Newton's fractals | Glsl
+  - ( ) Flow | Glsl
+  - ( ) {http://quil.info/sketches/local/04058d1f6e2628d8c71b4fd7c850b8937c0d12b8c48cfb2383b24fbdf41ae8c1} | Glsl
 
 * Ideas
   - Flow fields on image
@@ -17,7 +20,10 @@
   - HTML5 canvas
   - p5.js
   - Uiua
+  - {https://github.com/sleexyz/hylogen}
+  - Clojure {http://quil.info/}
   - Desmos
+  - Desmos 3D
   - Processing
   - webgl shaders
   - X11 (Xlib)
