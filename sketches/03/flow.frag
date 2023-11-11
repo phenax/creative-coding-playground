@@ -17,21 +17,16 @@ bool is_between(vec2 pos, vec2 min, vec2 max) {
 
 void main() {
   float time = sin(u_time);
-  vec2 uv = gl_FragCoord.xy/u_resolution.xy;
   float ratio = u_resolution.x / u_resolution.y;
-  vec2 pos = uv/vec2(1.0, ratio);
+  vec2 pos = (v_position.xy + 1.)/2./vec2(1.0, ratio);
 
   float cell_size = 1.0/CELL_COUNT;
+  vec2 cell_pos = cell_size * abs(floor(pos / cell_size));
 
-  for (float i = 0.; i < CELL_COUNT; i++) {
-    for (float j = 0.; j < CELL_COUNT; j++) {
-      vec2 cell_pos = vec2(i, j) * cell_size;
-
-      if (is_between(pos, cell_pos, cell_pos + vec2(cell_size, cell_size))) {
-        vec4 tex = texture2D(testImage, cell_pos);
-        float value = (tex.r + tex.g + tex.b) / 3.;
-        gl_FragColor = vec4(value, value, value, 1.0);
-      }
-    }
+  gl_FragColor = vec4(0., 0., 0., 1.);
+  if (is_between(pos, cell_pos, cell_pos + cell_size)) {
+    vec4 tex = texture2D(testImage, cell_pos);
+    float value = (tex.r + tex.g + tex.b) / 3.;
+    gl_FragColor = vec4(value, value, value, 1.0);
   }
 }
