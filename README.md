@@ -1,5 +1,5 @@
 # My playground
-Making cool looking things for fun.
+Making cool looking things for fun. They're all inside the [sketches](./sketches/) directory.
 
 ## 01: Mandelbrot fractal (Generalized to `z' = z^n + c`)
 |                                         |                                         |
