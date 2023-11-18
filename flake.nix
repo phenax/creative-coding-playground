@@ -18,6 +18,7 @@
             uiua
             glslviewer
             nodePackages.live-server
+            racket
             # cbqn
           ];
         };

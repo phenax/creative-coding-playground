@@ -2,22 +2,25 @@
   - (x) Mandelbrot | BQN + Glsl
   - (x) Newton's fractals | Glsl
   - ( ) Flow | Glsl
-  - ( ) {http://quil.info/sketches/local/04058d1f6e2628d8c71b4fd7c850b8937c0d12b8c48cfb2383b24fbdf41ae8c1} | Glsl
+  - (x) polka | Glsl
+  - ( ) Dragon deez nuts | Racket
 
 * Ideas
-  - Flow fields on image
+  - Dragon fractal
   - Newton's fractals
-  - Iterate over messytones
-  - Spinning poin
   - Mandelbrot
-  - Buddhabrot
+  - Flow fields on image
+  - Iterate over messytones
+  - Spinning poin (Future me note: what?)
   - Siperski triangle
   - 3d game of life
   - Webcam effects
   - Hilbert curve
+  - Polynomial fractals? {https://frankwang95.github.io/2018/02/polynomial-roots-are-beautiful}
 
 * Tools
   - HTML5 canvas
+  - Sketching racket {https://docs.racket-lang.org/manual-sketching/Reference.html#%28part._loop%29}
   - p5.js
   - Uiua
   - {https://github.com/sleexyz/hylogen}
