@@ -1,17 +1,6 @@
-* Week
-  - (x) Mandelbrot | BQN + Glsl
-  - (x) Newton's fractals | Glsl
-  - ( ) Flow | Glsl
-  - (x) polka | Glsl
-  - ( ) Dragon deez nuts | Racket
-
 * Ideas
-  - Dragon fractal
-  - Newton's fractals
-  - Mandelbrot
   - Flow fields on image
   - Iterate over messytones
-  - Spinning poin (Future me note: what?)
   - Siperski triangle
   - 3d game of life
   - Webcam effects

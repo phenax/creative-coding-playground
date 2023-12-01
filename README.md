@@ -21,3 +21,6 @@ Making cool looking things for fun. They're all inside the [sketches](./sketches
 |-----------------------------------------|-----------------------------------------|
 | ![5.1](./sketches/05/screenshots/1.jpg) | ![5.2](./sketches/05/screenshots/2.jpg) |
 
+## 06: Magic circlular circles
+![6.1](./sketches/06/screenshots/1.jpg)
+
