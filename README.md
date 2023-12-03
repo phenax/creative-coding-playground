@@ -24,3 +24,7 @@ Making cool looking things for fun. They're all inside the [sketches](./sketches
 ## 06: Magic circlular circles
 ![6.1](./sketches/06/screenshots/1.jpg)
 
+## 07: 3D Siepinski triangle in desmos [WIP]
+Don't know if this is even possible, but I'm gonna try anyway.
+![7.1](./sketches/07/screenshots/1.jpg)
+
