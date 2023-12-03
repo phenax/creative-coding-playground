@@ -28,3 +28,8 @@ Making cool looking things for fun. They're all inside the [sketches](./sketches
 Don't know if this is even possible, but I'm gonna try anyway.
 ![7.1](./sketches/07/screenshots/1.jpg)
 
+## 08: Spiral tree fractal
+
+|                                         |                                         |                                         |                                         |
+|-----------------------------------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|
+| ![8.1](./sketches/08/screenshots/1.jpg) | ![8.2](./sketches/08/screenshots/2.jpg) | ![8.3](./sketches/08/screenshots/3.jpg) | ![8.4](./sketches/08/screenshots/4.jpg) |

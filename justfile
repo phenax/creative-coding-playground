@@ -15,3 +15,7 @@ s5:
   npx nodemon -e rkt -x 'clear && just s5_run'
 
 s6: (sketch "06" "glslViewer" "strange.frag")
+
+s8_run: (sketch "08" "racket" "spirals.rkt")
+s8:
+  npx nodemon -e rkt -x 'clear && just s8_run'
