@@ -1,12 +1,21 @@
 #lang sketching
 
 (define (setup)
-  (size 200 200)
-  (frame-rate 1)
-  (loop))
+  (size 1920 1080)
+  (fullscreen)
+  (smoothing 'smoothed)
+  (no-cursor)
+  ;; (frame-rate 1)
+  ;; (loop)
+  (no-loop)
+  )
 
+;; Config
 (define iterations 14)
-(define init-segment 400)
+(define init-segment 900)
+
+;; State
+(define current-iteration 19)
 
 (define Line cons)
 (define ->0 car)
@@ -43,18 +52,20 @@
          (dragon-curve (->0 lines) 1 (- iteration 1))
          (dragon-curve (->1 lines) -1 (- iteration 1))))))
 
-(define current-iteration 0)
 (define (draw)
-  (background 150)
+  (background 21 18 31)
+  (stroke-weight 1)
+  (stroke-cap 'round)
+  (stroke-join 'round)
+  (stroke 50 39 99)
   (let* [
-         (p1 (Point (- (/ width 2) (/ init-segment 2)) (/ height 2)))
+         (p1 (Point (- (/ width 2) (/ init-segment 2.38)) (- (/ height 2) (/ init-segment 6) ) ))
          (l1 (Line p1 (Point (+ (->x p1) init-segment) (->y p1))))
-         (lines (dragon-curve l1 1 current-iteration))
          ]
-    (stroke-weight 2)
-    (stroke 0 0 0)
-    (for-each draw/line lines)
-    (if (= current-iteration iterations)
-        (no-loop)
-        (set! current-iteration (+ current-iteration 1)))))
+    (for-each draw/line (dragon-curve l1 1 current-iteration)))
+
+  ;; (if (= current-iteration iterations)
+  ;;     (no-loop)
+  ;;     (set! current-iteration (+ current-iteration 1)))
+  )
 
