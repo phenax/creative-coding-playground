@@ -16,6 +16,6 @@ s5:
 
 s6: (sketch "06" "glslViewer" "strange.frag")
 
-s8_run: (sketch "08" "racket" "spirals.rkt")
+s8_run: (sketch "08" "racket" "tree.rkt")
 s8:
   npx nodemon -e rkt -x 'clear && just s8_run'
